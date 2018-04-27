@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="sample.thing.service.impl.SampleThingLocalServiceImpl" id="sample.thing.service.SampleThingLocalService" />
+	<bean class="sample.thing.service.persistence.impl.SampleThingPersistenceImpl" id="sample.thing.service.persistence.SampleThingPersistence" parent="basePersistence" />
+</beans>

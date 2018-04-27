@@ -1,0 +1,9 @@
+Bundle-Name: sample-thing-api
+Bundle-SymbolicName: sample.thing.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	sample.thing.exception,\
+	sample.thing.model,\
+	sample.thing.service,\
+	sample.thing.service.persistence
+-includeresource: META-INF/service.xml=../sample-thing-service/service.xml

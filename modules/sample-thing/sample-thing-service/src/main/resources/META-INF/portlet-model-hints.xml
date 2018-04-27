@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="sample.thing.model.SampleThing">
+		<field name="uuid" type="String" />
+		<field name="sampleId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="status" type="int" />
+		<field name="statusByUserId" type="long" />
+		<field name="statusByUserName" type="String" />
+		<field name="statusDate" type="Date" />
+		<field name="someString" type="String" />
+		<field name="someBoolean" type="boolean" />
+		<field name="someInt" type="int" />
+		<field name="someDate" type="Date" />
+	</model>
+</model-hints>
